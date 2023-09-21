@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.back-left{
+    display: flex;
+    justify-content: left;
+    z-index: -1;
+    object-fit: cover;
+    
+}
+.back-right{
+    display: flex;
+    justify-content: right;
+    z-index: -1;
+    object-fit: cover;
+
+}

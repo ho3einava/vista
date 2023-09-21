@@ -1,0 +1,49 @@
+/* ******************** CSS Reset ******************* */
+:root {
+  --gray-dark-gray: #707070;
+  --Gray-6 : #f2f2f2;
+  --White: #fff;
+}
+@font-face {
+  font-family: "IRANSans";
+  src: url("/fonts/IRANSans-web.woff") format("woff");
+}
+/* ******************** footer style ******************* */
+.footer {
+  display: flex;
+  width: 1440px;
+  height: 48px;
+  padding: 1rem;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 576px;
+  flex-shrink: 0;
+  border-top: 1px solid var(--Gray-6, #f2f2f2);
+  background: var(--White, #fff);
+}
+.footer-text {
+  display: flex;
+  color: var(--gray-dark-gray, #707070);
+  text-align: right;
+
+  /* Iran Sans/14  Reg */
+  font-family: "IRANSans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+}
+.social-media {
+  display: flex;
+  gap: 12px;
+  margin-left: 5rem;
+}
+.social-media img {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+<script>
+  import {onMounted} from 'vue';
+export default{
+    setup(){
+        onMounted(() =>{
+const passFeild = document.getElementById('pass')
+const showBtn = document.getElementById('show-eye')
+
+
+showBtn.addEventListener("click" , () =>{
+    if(passFeild.type === 'password'){
+        passFeild.type = 'text'
+        showBtn.classList.add('hide')
+    }else{
+        passFeild.type = 'password'
+        showBtn.classList.remove('hide')
+    }
+})
+
+
+        })
+
+
+           
+}
+
+}
+</script>

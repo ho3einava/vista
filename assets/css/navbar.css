@@ -1,0 +1,117 @@
+/* ******************** CSS Reset ******************* */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+:root {
+  --background: #f1f1f1;
+  --Gray-2: #4f4f4f;
+  --pink-pink: #fd2f70;
+  --pink-pink-linear : #b51f4f;
+}
+
+/* ******************** Font Style ******************* */
+
+@font-face {
+  font-family: "IRANSans";
+  src: url("/fonts/IRANSans-web.woff") format("woff");
+}
+/* ******************** Navbar ******************* */
+.navbar {
+  display: flex;
+  width: 1440px;
+  height: 72px;
+  padding: 16px 120px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+ 
+}
+.nav-items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 32px;
+}
+.nav-logo {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  color: var(--Gray-2, #4f4f4f);
+
+  /* Iran Sans/14  Reg */
+  font-family: "IRANSans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  margin-left: 120px;
+  gap: 4px;
+}
+.login-btn {
+  display: flex;
+  width: 84px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  border-radius: 8px;
+  border: 1px solid var(--pink-pink, #fd2f70); 
+   color: var(--pink-pink, #fd2f70);
+
+  
+  font-family: 'IRANSans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+.signup-btn {
+  display: flex;
+  width: 84px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  border-radius: 8px;
+  background: var(
+    --pink-pink,
+    linear-gradient( #fd2f70 ));
+  color: var(--White, #fff);
+  /* Iran Sans/14  Bold */
+  font-family: IRANSans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+.signup-btn:hover{
+  background: var(
+    --pink-pink-linear,
+    linear-gradient(32deg, #b51f4f -4.32%, #fd2f70 101.44%));
+}

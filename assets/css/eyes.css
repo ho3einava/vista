@@ -1,0 +1,12 @@
+.show-hide{
+    position: absolute;
+    left: 12px;
+    cursor: pointer;
+  }
+  .show-hide i.hide::before {
+    content: '\F340';
+   
+  }
+  .form-input:valid ~ .show-hide {
+    display: block;
+  }

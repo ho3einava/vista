@@ -1,0 +1,143 @@
+.right-vectors {
+  width: 532.001px;
+  height: 560px;
+  flex-shrink: 0;
+
+  position: absolute;
+  right: 1px;
+}
+.left-vectors {
+  width: 563.942px;
+  height: 560px;
+  flex-shrink: 0;
+
+  position: absolute;
+  left: 1px;
+}
+.vector6 {
+  width: 39.667px;
+  height: 80.966px;
+  flex-shrink: 0;
+  position: relative;
+  right: 1px;
+  top: 0;
+}
+.vector7 {
+  width: 69.6px;
+  height: 80.966px;
+  flex-shrink: 0;
+  position: relative;
+  right: 0px;
+  top: -1px;
+}
+.vector8 {
+  width: 69.6px;
+  height: 80.966px;
+  flex-shrink: 0;
+  position: relative;
+  right: 0px;
+  top: -1px;
+}
+.vector9 {
+  width: 69.6px;
+  height: 80.966px;
+  flex-shrink: 0;
+  position: relative;
+  right: -65px;
+  top: -1px;
+}
+.vector10 {
+  width: 69.581px;
+  height: 80.966px;
+  flex-shrink: 0;
+  position: relative;
+  right: 1px;
+  top: -1px;
+}
+.vector11 {
+  width: 69.581px;
+  height: 80.966px;
+  flex-shrink: 0;
+  position: relative;
+  right: -190px;
+  top: 90px;
+}
+.vector12 {
+  width: 69.581px;
+  height: 80.966px;
+  flex-shrink: 0;
+  position: relative;
+  right: -300px;
+  top: 150px;
+}
+
+/* ******************** left vectors ******************** */
+.vector100 {
+  width: 69.581px;
+  height: 80.966px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 1px;
+  top: 143px;
+}
+.vector101 {
+  width: 69.581px;
+  height: 80.966px;
+  flex-shrink: 0;
+  position: absolute;
+  left: -3px;
+  top: 146px;
+}
+.vector102 {
+  width: 69.581px;
+  height: 80.966px;
+  flex-shrink: 0;
+  position: absolute;
+  left: -3px;
+  top: 266px;
+}
+.vector103 {
+  width: 69.581px;
+  height: 80.966px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 180px;
+  top: 266px;
+  
+}
+.vector104 {
+  width: 69.581px;
+  height: 80.966px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 80px;
+  top: 366px;
+  
+}
+.vector105 {
+  width: 69.581px;
+  height: 80.966px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 70px;
+  top: 166px;
+  
+}
+.vector106 {
+  width: 69.581px;
+  height: 80.966px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 90px;
+  top: 66px;
+  
+}
+.vector107 {
+  width: 69.581px;
+  height: 80.966px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 190px;
+  top: 166px;
+  
+}
